@@ -1,93 +1,61 @@
 "use client";
 
-import React, { useState } from "react";
 import logo from "@/public/logo.jpg";
 import { Montserrat } from "next/font/google";
-import styles from "@/css/styles.module.css";
-import {
-  ArrowRightCircleIcon,
-  GraduationCap,
-  School,
-  User,
-} from "lucide-react";
-import {
-  AlertDialog,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-  AlertDialogTrigger,
-} from "@/components/ui/alert-dialog";
-import {
-  InputOTP,
-  InputOTPGroup,
-  InputOTPSeparator,
-  InputOTPSlot,
-} from "@/components/ui/input-otp";
-import {
-  Drawer,
-  DrawerClose,
-  DrawerContent,
-  DrawerFooter,
-  DrawerTrigger,
-} from "@/components/ui/drawer";
-import { Button } from "../ui/button";
 import { Image } from "@heroui/image";
-import { IconCertificate } from "@tabler/icons-react";
-import ver from "@/public/media/vrifyy.gif";
-import notver from "@/public/media/cancel.gif";
+import VerifyDialog from "./verifydialog";
+// import ver from "@/public/media/vrifyy.gif";
+// import notver from "@/public/media/cancel.gif";
 // import profile from "@/public/media/profile.jpg";
-import { getCertificateDetails } from "@/lib/actions"; // adjust path if needed
+// import { getCertificateDetails } from "@/lib/actions"; // adjust path if needed
 
 const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["400", "700"],
 });
 
-interface CertificateData {
-  fullName: string;
-  dateOfBirth: string;
-  gender: string;
-  nationality: string;
-  matriculationNumber: string;
-  institutionName: string;
-  courseOfStudy: string;
-  degreeAwarded: string;
-  classOfDegree: string;
-  facultyOrDepartment: string;
-  yearOfAdmission: number;
-  yearOfGraduation: number;
-  modeOfStudy: string;
-  certificateSerialNumber: string;
-  dateOfIssue: string;
-  verificationStatus: string;
-  verificationTimestamp: string;
-  blockchainId: string;
-  institutionContactDetails: string;
-  accreditationStatus: string;
-  studentPic: string; // Added for the student image link
-}
+// interface CertificateData {
+//   fullName: string;
+//   dateOfBirth: string;
+//   gender: string;
+//   nationality: string;
+//   matriculationNumber: string;
+//   institutionName: string;
+//   courseOfStudy: string;
+//   degreeAwarded: string;
+//   classOfDegree: string;
+//   facultyOrDepartment: string;
+//   yearOfAdmission: number;
+//   yearOfGraduation: number;
+//   modeOfStudy: string;
+//   certificateSerialNumber: string;
+//   dateOfIssue: string;
+//   verificationStatus: string;
+//   verificationTimestamp: string;
+//   blockchainId: string;
+//   institutionContactDetails: string;
+//   accreditationStatus: string;
+//   studentPic: string; // Added for the student image link
+// }
 
 export default function Nav() {
-  const [otpValue, setOtpValue] = useState("");
-  const [certData, setCertData] = useState<CertificateData | null>(null);
-  const [loading, setLoading] = useState(false);
+  // const [otpValue, setOtpValue] = useState("");
+  // const [certData, setCertData] = useState<CertificateData | null>(null);
+  // const [loading, setLoading] = useState(false);
 
-  const handleVerify = async () => {
-    setLoading(true);
-    const data = await getCertificateDetails(otpValue);
+  // const handleVerify = async () => {
+  //   setLoading(true);
+  //   const data = await getCertificateDetails(otpValue);
 
-    setCertData(data);
-    setLoading(false);
-  };
+  //   setCertData(data);
+  //   setLoading(false);
+  // };
 
-  const resetVerification = () => {
-    setOtpValue("");
-    setLoading(false);
-    setCertData(null);
-  };
+  // const resetVerification = () => {
+  //   setOtpValue("");
+  //   setLoading(false);
+  //   setCertData(null);
+  // };
 
   return (
     <nav className="absolute top-0 z-40 flex w-full px-5 pt-2  justify-between items-center">
@@ -104,7 +72,8 @@ export default function Nav() {
         </h1>
       </div>
 
-      <AlertDialog>
+      <VerifyDialog />
+      {/* <AlertDialog>
         <AlertDialogTrigger
           className={`${styles.mybutton} flex gap-2 items-center`}
         >
@@ -316,7 +285,7 @@ export default function Nav() {
             </Drawer>
           </AlertDialogFooter>
         </AlertDialogContent>
-      </AlertDialog>
+      </AlertDialog> */}
     </nav>
   );
 }
