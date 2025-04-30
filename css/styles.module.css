@@ -1,0 +1,109 @@
+.blob {
+  border-radius: 0% 100% 62% 38% / 14% 53% 47% 86%;
+}
+.cartLoader {
+  width: 25px;
+  height: 25px;
+  --c: radial-gradient(farthest-side, white 92%, #0000);
+  background: var(--c) 50% 0, var(--c) 50% 100%, var(--c) 100% 50%,
+    var(--c) 0 50%;
+  background-size: 6px 6px;
+  background-repeat: no-repeat;
+  animation: s7 0.5s infinite;
+}
+@keyframes s7 {
+  to {
+    transform: rotate(0.5turn);
+  }
+}
+.mybutton {
+  padding: 0.5rem 1.2rem;
+  border-radius: 10rem;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.mybutton::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: 2px solid black;
+
+  border-radius: 10rem;
+  z-index: -2;
+}
+
+.mybutton::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: black;
+  border: 2px solid black;
+  transition: all 0.4s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+
+.mybutton:hover {
+  color: white;
+}
+
+.mybutton:hover::before {
+  width: 100%;
+}
+
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  height: 15px;
+  aspect-ratio: 6;
+  display: flex;
+}
+.loader:before,
+.loader:after {
+  content: "";
+  flex: 1;
+  padding-left: calc(100%/6);
+  background: radial-gradient(closest-side at calc(100%/3) 50%,#000 90%,#0000) 0/75% 100% content-box;
+  animation: l20 2s infinite;
+}
+.loader:after {
+  --_s:-1;
+}
+@keyframes l20 {
+    0%       {transform:scale(var(--_s,1)) translate(0)    rotate(0)}
+    25%      {transform:scale(var(--_s,1)) translate(-25%) rotate(0)}
+    50%      {transform:scale(var(--_s,1)) translate(-25%) rotate(1turn)}
+    75%,100% {transform:scale(var(--_s,1)) translate(0)    rotate(1turn)}
+}
+
+
+
+/* HTML: <div class="loader"></div> */
+.loader2 {
+  width: 32px;
+  aspect-ratio: 1.128;
+  --_g: no-repeat radial-gradient(farthest-side,#000 90%,#0000);
+  background: 
+    var(--_g) 50%  0,
+    var(--_g) 0    100%,
+    var(--_g) 100% 100%;
+  background-size: 35% calc(35%*1.154);
+  animation: l16 1s infinite;
+}
+@keyframes l16{ 
+    50%,100% {background-position: 100% 100%,50% 0,0 100%} 
+}

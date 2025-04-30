@@ -1,0 +1,162 @@
+[
+  {
+    "studentName": "Grace Okoro",
+    "studentImage": "https://i.pinimg.com/736x/3b/27/83/3b278356334efff586513642a71035c6.jpg",
+    "certificateId": "BIO-2024-0001",
+    "institution": "ESAE Benin University",
+    "dateIssued": "March 15, 2024",
+    "status": "Verified"
+  },
+  {
+    "studentName": "Emeka Obi",
+    "studentImage": "https://i.pinimg.com/736x/b1/85/d6/b185d68dfbc0d16e9e9adcd9150b9643.jpg",
+    "certificateId": "BIO-2024-0002",
+    "institution": "ESAE Benin University",
+    "dateIssued": "March 15, 2024",
+    "status": "Verified"
+  },
+  {
+    "studentName": "Aisha Bello",
+    "studentImage": "https://i.pinimg.com/736x/cc/54/a3/cc54a347674223e9330ae8b40eb9c020.jpg",
+    "certificateId": "BIO-2024-0003",
+    "institution": "ESAE Benin University",
+    "dateIssued": "March 15, 2024",
+    "status": "Verified"
+  },
+  {
+    "studentName": "Ifeanyi Nwosu",
+    "studentImage": "https://i.pinimg.com/736x/d9/47/81/d94781f355587941201a2fc3f2141152.jpg",
+    "certificateId": "BIO-2024-0004",
+    "institution": "ESAE Benin University",
+    "dateIssued": "March 15, 2024",
+    "status": "Verified"
+  },
+  {
+    "studentName": "Ngozi Umeh",
+    "studentImage": "https://i.pinimg.com/736x/44/8b/c5/448bc5dc0fdd880f2fd5490942409774.jpg",
+    "certificateId": "BIO-2024-0005",
+    "institution": "ESAE Benin University",
+    "dateIssued": "March 15, 2024",
+    "status": "Verified"
+  },
+  {
+    "studentName": "David Eze",
+    "studentImage": "https://i.pinimg.com/736x/bb/6a/ef/bb6aef8c1bd48cd8b3b41725eaba18e3.jpg",
+    "certificateId": "BIO-2024-0006",
+    "institution": "ESAE Benin University",
+    "dateIssued": "March 15, 2024",
+    "status": "Verified"
+  },
+  {
+    "studentName": "Halima Sanni",
+    "studentImage": "https://i.pinimg.com/736x/a4/94/cc/a494cc835e6b1196764031fc0102f80b.jpg",
+    "certificateId": "BIO-2024-0007",
+    "institution": "ESAE Benin University",
+    "dateIssued": "March 15, 2024",
+    "status": "Verified"
+  },
+  {
+    "studentName": "Tunde Bakare",
+    "studentImage": "https://i.pinimg.com/736x/d8/f4/2d/d8f42d6099964a1a41960f7886662ed2.jpg",
+    "certificateId": "BIO-2024-0008",
+    "institution": "ESAE Benin University",
+    "dateIssued": "March 15, 2024",
+    "status": "Verified"
+  },
+  {
+    "studentName": "Chinelo Amadi",
+    "studentImage": "https://i.pinimg.com/736x/a4/a2/b6/a4a2b65d3b657b4eb67d2168fa48c24d.jpg",
+    "certificateId": "BIO-2024-0009",
+    "institution": "ESAE Benin University",
+    "dateIssued": "March 15, 2024",
+    "status": "Verified"
+  },
+  {
+    "studentName": "Abdullahi Musa",
+    "studentImage": "https://i.pinimg.com/736x/d1/f7/c4/d1f7c4635325d475cacf77dfc9699814.jpg",
+    "certificateId": "BIO-2024-0010",
+    "institution": "ESAE Benin University",
+    "dateIssued": "March 15, 2024",
+    "status": "Verified"
+  },
+  {
+    "studentName": "Blessing Adeniran",
+    "studentImage": "https://i.pinimg.com/736x/05/6c/30/056c30a8878e1c382895946579d095ea.jpg",
+    "certificateId": "BIO-2024-0193",
+    "institution": "ESAE Benin University",
+    "dateIssued": "April 1, 2024",
+    "status": "Verified"
+  },
+  {
+    "studentName": "Samuel Chukwu",
+    "studentImage": "https://i.pinimg.com/736x/dd/7a/e7/dd7ae7282f0af3ae404797c6dd3d0b24.jpg",
+    "certificateId": "BIO-2024-0194",
+    "institution": "ESAE Benin University",
+    "dateIssued": "April 2, 2024",
+    "status": "Verified"
+  },
+  {
+    "studentName": "Zainab Lawal",
+    "studentImage": "https://i.pinimg.com/736x/c8/3f/92/c83f923c6b3d247facad17ab5ca5072d.jpg",
+    "certificateId": "BIO-2024-0195",
+    "institution": "ESAE Benin University",
+    "dateIssued": "April 3, 2024",
+    "status": "Verified"
+  },
+  {
+    "studentName": "Chidera Uzo",
+    "studentImage": "https://i.pinimg.com/736x/c2/75/59/c27559d53ec786143f5bcddf27dc546c.jpg",
+    "certificateId": "BIO-2024-0196",
+    "institution": "ESAE Benin University",
+    "dateIssued": "April 4, 2024",
+    "status": "Verified"
+  },
+  {
+    "studentName": "Fatima Mohammed",
+    "studentImage": "https://i.pinimg.com/736x/ee/49/e0/ee49e00484dcea250f3ccf6a49b73615.jpg",
+    "certificateId": "BIO-2024-0197",
+    "institution": "ESAE Benin University",
+    "dateIssued": "April 5, 2024",
+    "status": "Verified"
+  },
+  {
+    "studentName": "Kelvin Okafor",
+    "studentImage": "https://i.pinimg.com/736x/eb/89/68/eb8968c2eb953f6ed51d13388720e54d.jpg",
+    "certificateId": "BIO-2024-0198",
+    "institution": "ESAE Benin University",
+    "dateIssued": "April 6, 2024",
+    "status": "Verified"
+  },
+  {
+    "studentName": "Rita Uche",
+    "studentImage": "https://i.pinimg.com/736x/89/0d/bb/890dbbf6762ac32a780aa6c6b6322438.jpg",
+    "certificateId": "BIO-2024-0199",
+    "institution": "ESAE Benin University",
+    "dateIssued": "April 7, 2024",
+    "status": "Verified"
+  },
+  {
+    "studentName": "Yusuf Garba",
+    "studentImage": "https://i.pinimg.com/736x/38/f5/0a/38f50aef293c298f77212db78c6867c2.jpg",
+    "certificateId": "BIO-2024-0200",
+    "institution": "ESAE Benin University",
+    "dateIssued": "April 8, 2024",
+    "status": "Verified"
+  },
+  {
+    "studentName": "Amaka Igwe",
+    "studentImage": "https://i.pinimg.com/736x/9b/04/2e/9b042e538dd77b52ffac820ff71c0a88.jpg",
+    "certificateId": "BIO-2024-0201",
+    "institution": "ESAE Benin University",
+    "dateIssued": "April 9, 2024",
+    "status": "Verified"
+  },
+  {
+    "studentName": "Ibrahim Usman",
+    "studentImage": "https://i.pinimg.com/736x/07/21/ac/0721ac12325e845d87e62cee92d48b23.jpg",
+    "certificateId": "BIO-2024-0202",
+    "institution": "ESAE Benin University",
+    "dateIssued": "April 10, 2024",
+    "status": "Verified"
+  }
+]
