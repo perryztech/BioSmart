@@ -1,0 +1,23 @@
+[
+  {
+    "studentName": "Grace Okoro",
+    "studentImage": "https://i.pinimg.com/736x/3b/27/83/3b278356334efff586513642a71035c6.jpg",
+    "certificateId": "BIO-2024-0001",
+    "studentId": "ESAE/2020/1234",
+    "institution": "ESAE Benin University",
+    "faculty": "Faculty of Science",
+    "department": "Computer Science",
+    "program": "Bachelor of Science in Computer Science",
+    "duration": "4 years",
+    "dateOfAdmission": "September 1, 2020",
+    "dateOfGraduation": "March 15, 2024",
+    "dateIssued": "March 15, 2024",
+    "classOfDegree": "Second Class Upper Division",
+    "honors": "With Distinction",
+    "status": "Verified",
+    "registrarName": "Dr. A. Musa",
+    "registrarTitle": "Registrar",
+    "institutionLogo": "/logo.png",
+    "qrCode": "/qrcode.png"
+  }
+]

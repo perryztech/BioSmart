@@ -1,0 +1,22 @@
+export type Certificate = {
+  studentName: string;
+  studentImage: string;
+  certificateId: string;
+  studentId: string;
+  institution: string;
+  faculty: string;
+  department: string;
+  program: string;
+  duration: string;
+  dateOfAdmission: string;
+  dateOfGraduation: string;
+  dateIssued: string;
+  classOfDegree: string;
+  honors: string;
+  status: string;
+  registrarName: string;
+  registrarTitle: string;
+  registrarSignature?: string;
+  institutionLogo: string;
+  qrCode: string;
+};
